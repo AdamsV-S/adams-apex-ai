@@ -1,0 +1,54 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0b0f1a;
+  color:white;
+}
+
+header{
+  text-align:center;
+  padding:30px 15px;
+  background:linear-gradient(90deg,#111,#1e2a55);
+}
+
+header h1{
+  margin:0;
+  font-size:32px;
+}
+
+header p{
+  color:#00ffcc;
+}
+
+.dashboard{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:15px;
+  padding:20px;
+}
+
+.card{
+  background:#151c2f;
+  padding:20px;
+  border-radius:16px;
+  box-shadow:0 0 10px rgba(0,255,200,0.15);
+}
+
+.card h2{
+  margin-top:0;
+}
+
+button{
+  width:100%;
+  padding:15px;
+  border:none;
+  border-radius:12px;
+  background:#00ffcc;
+  color:#000;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+button:hover{
+  opacity:0.9;
+}
